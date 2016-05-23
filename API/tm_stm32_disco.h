@@ -165,7 +165,7 @@ extern "C" {
 #include "stm32fxxx_hal.h"
 #include "defines.h"
 #include "tm_stm32_gpio.h"
-
+#define STM32F401_DISCOVERY
 /* STM32F439 Eval */
 #if defined(STM32F439_EVAL)
 	#define LED_GREEN					0x0040U

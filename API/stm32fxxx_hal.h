@@ -149,7 +149,7 @@ extern "C" {
 
 /* Include project config file */
 #include "defines.h"
-
+#define STM32F4xx
 /* Check if HAL drivers enabled */
 #ifndef USE_HAL_DRIVER
 #define USE_HAL_DRIVER

@@ -9,9 +9,12 @@
 */
 
 
-#include "stm32f4xx.h"
-#include "stm32f401_discovery.h"
-			
+
+#include "defines.h"
+#include "stm32fxxx_hal.h"
+#include "tm_stm32_disco.h"
+//#include "tm_stm32_delay.h"
+//#include "tm_stm32_usart.h"
 
 int main(void)
 {
